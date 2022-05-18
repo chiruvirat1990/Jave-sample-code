@@ -5,6 +5,10 @@
 
 trigger:
 - master
+- release/development/*
+- release/qa/*
+- release/prestage/*
+- release/staging/*
 
 pool:
   vmImage: ubuntu-latest
